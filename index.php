@@ -1,7 +1,7 @@
 <?php
 $page = "home";
 $title = "Chambafacil";
-$metaD = "¿Buscas trabajo? aqui es muy facil";
+$metaD = "¿Buscas trabajo? aquí en chambafácil";
 ?>
 <?php 
     require_once ("config.php"); 
