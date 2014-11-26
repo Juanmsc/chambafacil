@@ -138,11 +138,7 @@
                         <input type="submit" id="logeo" class="btn btn-info" value="Iniciar"/>
                     </div>
                     </div>
-
   </form>
-      
-      
-      
   </div>
   <div role="tabpanel" class="tab-pane" id="profile"> 
               
@@ -150,17 +146,17 @@
                 <form role="form" action="registro.php" method="post">
                     <div class="login-form">
                             <div class="form-group">
-                                <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Correo Electronico" tabindex="4" required>
+                                <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Correo Electronico" tabindex="4" autocomplete="off" required >
                             </div>
                             <div class="row">
                                 <div class="col-xs-6 col-sm-6 col-md-6">
                                     <div class="form-group">
-                                        <input type="password" name="password" id="password" class="form-control input-lg" placeholder="Contraseña" tabindex="5" required>
+                                        <input type="password" name="password" id="password" class="form-control input-lg" placeholder="Contraseña" tabindex="5" autocomplete="off" required >
                                     </div>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-6">
                                     <div class="form-group">
-                                        <input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-lg" placeholder="Repetir contraseña" tabindex="6" required>
+                                        <input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-lg" placeholder="Repetir contraseña" tabindex="6" required autocomplete="off">
                                     </div>
                                 </div>
                             </div>
@@ -180,10 +176,6 @@
                             </div>
                         </div>
                         </form>  
-      
-      
-      
-      
   </div>
 </div>                   
                         

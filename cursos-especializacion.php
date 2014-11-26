@@ -23,7 +23,6 @@ $_SESSION['clave']=$_COOKIE['pass'];
         <input type="text" placeholder="..." class="form-control" />
   </div><!-- /.col-lg-6 -->
 </div><!-- /.row -->      
-         
          <div class="row">
   <div class="col-lg-6">
       <label class="title">Institucion:<span class="required">*</span></label>

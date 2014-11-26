@@ -16,16 +16,17 @@ require('inc/menu.php');
 $_SESSION['clave']=$_COOKIE['pass'];
 $_SESSION['id_usr']=$_SESSION['user']['id_usr'];
 ?>
-
+<div style="background-image: url(img/imgtr1.jpg); height:100%;">
  <div class="container-fluid">
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
 <?php require("inc/sidebar.php"); ?>
           </div>
- <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+    
+ <div  class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
     <h2>Bienvenido <?php echo htmlentities($_SESSION['user']['Email_usr'], ENT_QUOTES, 'UTF-8'); ?> a chambafacil.com</h2>
-    <p>Buscar trabajo nunca fue tan facil, solo necesitamos los datos de tu curriculum vitae.</p>
-
+    <strong><p style="color=black">Buscar trabajo nunca fue tan facil, solo necesitamos los datos de tu curriculum vitae.</p></strong>
+          </div>
 </div>
 </div>
 </div>
